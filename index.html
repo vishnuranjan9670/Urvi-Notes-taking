@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urvi Notes-Taking</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>🪶 Urvi Notes-Taking</h1>
+    <p>Offline Smart Notes App with Voice Input & Auto Highlight</p>
+  </header>
+
+  <section class="note-section">
+    <textarea id="noteInput" placeholder="Type or paste your notes here..."></textarea>
+    <div class="buttons">
+      <button id="voiceBtn">🎙️ Voice Input</button>
+      <button id="analyzeBtn">✨ Make Beautiful Note</button>
+    </div>
+  </section>
+
+  <section class="result-section">
+    <h2>🧠 Organized Note</h2>
+    <div id="noteOutput"></div>
+    <button id="exportPDF">📄 Export PDF</button>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
